@@ -1,4 +1,4 @@
-# Closure-Based Services
+# SwiftUI Preview: Closure-Based Services
 
 ## The Protocol Problem
 Do not use protocols for dependency injection. Protocols require multiple conforming types (protocol + live implementation + mock implementation), creating unnecessary boilerplate and duplicating state management.

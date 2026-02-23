@@ -1,9 +1,9 @@
 ---
-name: swiftui-closure-di
-description: Enforces modern SwiftUI architecture using closure-based Dependency Injection, @Observable stores, and SwiftUI Environment. Replaces MVVM and Protocol-based DI. Use when creating new features, services, or views in SwiftUI.
+name: swiftui-preview
+description: Guidelines and best practices for creating effective and maintainable SwiftUI Previews.
 ---
 
-# SwiftUI Closure-Based DI & State Architecture
+# SwiftUI Preview Architecture
 
 ## Overview
 When writing or refactoring SwiftUI code, you must strictly follow the Closure-Based Dependency Injection pattern. We **do not use MVVM**, nor do we use Protocol-based dependency injection (e.g., no `ServiceProtocol`, `LiveService`, `MockService` classes). 

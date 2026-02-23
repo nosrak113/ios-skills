@@ -1,4 +1,4 @@
-# Observable Stores & State Management
+# SwiftUI Preview: Observable Stores & State Management
 
 ## The View Model Replacement
 We **do not use View Models**. The Store *is* the view model. It holds observable state that views react to. Views read data from the Store, but only the Store's methods can modify it.
